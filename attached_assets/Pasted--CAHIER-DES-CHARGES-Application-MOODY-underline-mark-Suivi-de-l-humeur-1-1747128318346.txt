@@ -1,0 +1,230 @@
+**CAHIER DES CHARGES**
+
+*Application [\"[MOODY]{.underline}]{.mark}\" - Suivi de l\'humeur*
+
+**1. PRÉSENTATION DU PROJET**
+
+1.1- Contexte :
+
+L\'application Moody est un outil de suivi d\'humeur qui vise à aider
+les utilisateurs à mieux comprendre leurs états émotionnels et à
+améliorer leur bien-être quotidien. La particularité de l\'application
+est qu\'elle prend en compte les spécificités liées au genre, notamment
+les cycles menstruels pour les utilisatrices, afin de proposer des
+solutions personnalisées.
+
+1.2- Objectifs :
+
+\- Permettre un suivi quotidien de l\'humeur via une interface intuitive
+.
+
+\- Intégrer les facteurs biologiques dans l\'analyse des humeurs
+(notamment le cycle menstruel)
+
+\- Analyser les données ...
+
+\- Offrir des recommandations personnalisées basées sur l\'état
+émotionnel (vidéos, musique, citations , activités )
+
+\- Intégration avec des applications spécialisées (Flo)
+
+**2. FONCTIONNEMENT DÉTAILLÉ DE L\'APPLICATION :**
+
+2.1- Processus d\'inscription et connexion :
+
+\- Écran d\'accueil : Page de bienvenue avec options \"Se connecter\" et
+\"Créer un compte\"
+
+\- Création de compte :
+
+\* Informations de base (nom, email, mot de passe) .
+
+\* Question sur le genre (homme/femme).
+
+\* Si \"femme\" est sélectionné : champ pour indiquer la date du dernier
+cycle menstruel.
+
+\*Connexion : Saisie de l\'email et du mot de passe .
+
+2.2 -Interface principale de suivi d\'humeur :
+
+\- Écran principal quotidien :
+
+\* Sélection d\'émojis représentant différents états émotionnels (très
+heureux, heureux, neutre, triste, très triste, anxieux, énergique, etc.)
+
+\* Champ de texte libre pour ajouter une note détaillée sur les
+ressentis .
+
+\* Date automatiquement enregistrées .
+
+\* Bouton de validation pour enregistrer l\'entrée.
+
+2.3 - Système de recommandations :
+
+En fonction de l\'humeur sélectionnée, l\'application propose
+immédiatement :
+
+\- *[Pour les humeurs négatives :]{.underline}*
+
+\* Vidéos de yoga ou de pilates adaptées (courtes sessions relaxantes ou
+dynamisantes)
+
+\* Playlists musicales apaisantes ou motivantes selon le besoin .
+
+\* Citations inspirantes ou réconfortantes .
+
+\* proposer des activités (Gribouiller ou colorie, Écrire quelques
+pensées, Organiser to-do list)
+
+\- [*Pour les humeurs positives*:]{.underline}
+
+\* Vidéos pour maintenir cette énergie positive
+
+\* Playlists musicales enjouées
+
+\* Citations célébrant les émotions positives
+
+*[- Pour les humeurs neutres :]{.underline}*
+
+\* Contenu équilibré pour améliorer légèrement l\'état émotionnel.
+
+\* proposer des applications
+
+2.4 Analyse et visualisation des données :
+
+\- Tableau de bord :
+
+\* Diagramme mensuel montrant l\'évolution de l\'humeur jour par jour .
+
+\* Code couleur associé aux différentes émotions pour une visualisation
+rapide .
+
+\* Identification des tendances et des corrélations
+
+*[[- Pour les utilisatrices :]{.underline}]{.mark}*
+
+\* Corrélation entre l\'humeur et les phases du cycle menstruel
+
+\* Prévisions d\'humeur basées sur les cycles précédents
+
+3\. SPÉCIFICATIONS TECHNIQUES
+
+3.1 Architecture technique
+
+\- Frontend : Application native pour iOS et Android
+
+\- Backend : Serveur sécurisé pour le stockage et l\'analyse des données
+
+\- Base de données :
+
+3.3 Bibliothèque de contenu
+
+\- Vidéos de yoga et pilates catégorisées par intention (relaxation,
+énergie, équilibre)
+
+\- Playlists musicales issues de services de streaming populaires
+
+\- Base de données de citations inspirantes et réconfortantes
+
+3.4 Algorithme de recommandation
+
+\- Système basé sur l\'humeur actuelle et les préférences antérieures
+
+\- Prise en compte du cycle menstruel pour les femmes
+
+\- Adaptation progressive aux choix de l\'utilisateur
+
+4\. INTERFACE UTILISATEUR
+
+4.1 Écrans principaux
+
+\- \*Écran de connexion/inscription\*
+
+\- \*Écran principal\* (sélection d\'emoji et note)
+
+\- \*Écran de recommandations\* (vidéos, musique, citations)
+
+\- \*Tableau de bord analytique\* (diagrammes et tendances)
+
+\- \*Profil et paramètres\*
+
+4.2 Identité visuelle
+
+\- Interface épurée et intuitive
+
+\- Palette de couleurs apaisante
+
+\- Émojis expressifs et inclusifs
+
+\- Transitions fluides entre les écrans
+
+4.3 Éléments d\'interaction
+
+\- Sélection des émojis par simple toucher
+
+\- Lecteur vidéo intégré
+
+\- Connexion directe aux applications de streaming musical
+
+\- Gestes tactiles pour naviguer dans les analyses
+
+5\. DÉVELOPPEMENT ET DÉPLOIEMENT
+
+5.1 Étapes de développement
+
+\- \*Phase 1\* : Conception de l\'interface et prototypage
+
+\- \*Phase 2\* : Développement du cœur fonctionnel (suivi d\'humeur)
+
+\- \*Phase 3\* : Intégration des recommandations (vidéos, musique,
+citations)
+
+\- \*Phase 4\* : Développement des analyses et visualisations
+
+\- \*Phase 5\* : Intégration avec Flo
+
+\- \*Phase 6\* : Tests utilisateurs et ajustements
+
+5.2 Technologie et frameworks :
+
+\- Backend : Node.js avec Express .
+
+\- Base de données : SQLLITE .
+
+\- Analyse de données : Python avec bibliothèques d\'analyse statistique
+.
+
+5.3 Tests et qualité :
+
+\- Tests unitaires et d\'intégration
+
+\- Tests utilisateurs avec panels diversifiés
+
+\- Surveillance de la performance et de la stabilité
+
+***[6. CONTRAINTES ET CONSIDÉRATIONS]{.underline}***
+
+6.1 Confidentialité et sécurité
+
+\- Stricte conformité aux réglementations sur les données de santé
+
+\- Anonymisation des données pour l\'analyse
+
+\- Options de confidentialité étendues pour les utilisateurs
+
+6.2 Évolutivité
+
+\- Architecture permettant l\'ajout de nouvelles fonctionnalités
+
+\- Système de mise à jour fluide
+
+\- Capacité d\'adaptation aux retours utilisateurs
+
+6.3 Ressources nécessaires
+
+\- Équipe de développement (frontend, backend, UX/UI)
+
+\- Partenariats pour le contenu (vidéos, musique)
+
+\- Infrastructure serveur évolutive
